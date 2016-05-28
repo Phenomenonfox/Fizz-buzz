@@ -1,3 +1,7 @@
 #! Unix GUI widget Version 0.01
+file = open('myfile.txt','w')   #sozdast file
+for line in file:
+  print(line, end='')
+
 
 
